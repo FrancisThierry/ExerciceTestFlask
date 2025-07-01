@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: exercice-test-flask
+Version: 0.1.0
+Summary: Un exemple d'application Flask avec TDD
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+Requires-Dist: pytest
+Requires-Dist: mendeleev

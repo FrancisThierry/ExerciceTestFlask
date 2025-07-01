@@ -1,0 +1,9 @@
+pyproject.toml
+src/business_logic/__init__.py
+src/business_logic/mendeleev_management.py
+src/exercice_test_flask.egg-info/PKG-INFO
+src/exercice_test_flask.egg-info/SOURCES.txt
+src/exercice_test_flask.egg-info/dependency_links.txt
+src/exercice_test_flask.egg-info/requires.txt
+src/exercice_test_flask.egg-info/top_level.txt
+tests/test_get_element.py

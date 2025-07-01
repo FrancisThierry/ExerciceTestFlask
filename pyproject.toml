@@ -1,0 +1,19 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exercice-test-flask" # Nom de votre package, peut être différent du nom du dossier
+version = "0.1.0"
+description = "Un exemple d'application Flask avec TDD"
+readme = "readme.md"
+requires-python = ">=3.8"
+dependencies = [
+    "Flask",
+    "pytest",
+    "mendeleev" # Si vous prévoyez d'utiliser la vraie lib plus tard
+]
+
+[tool.setuptools.packages.find]
+where = ["src"] # Indique à setuptools de chercher les paquets DANS le dossier 'src'
